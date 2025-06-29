@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reflejos Ninja 🥷</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Reflejos Ninja 🥷</h1>
+
+  <div class="top-bar">
+    <button id="modoBtn">🌗 Cambiar Modo</button>
+    <button id="reiniciarBtn">🔁 Reiniciar</button>
+  </div>
+
+  <p id="mensaje">Haz clic en la figura tan pronto como aparezca</p>
+
+  <div id="info">
+    <span>Puntos: <span id="puntos">0</span></span>
+    <span>Vidas: <span id="vidas">3</span></span>
+    <span>Récord: <span id="record">0</span> ms</span>
+  </div>
+
+  <div id="juego">
+    <div id="figura"></div>
+  </div>
+
+  <p id="resultado"></p>
+
+  <!-- 🔊 Sonido confiable -->
+  <audio id="sonido" src="audios/bishop_briggs_river_lyrics_mp3_80417.mp3" preload="auto"></audio>
+
+  <!-- ✅ Botón para activar sonido en móviles -->
+  <button id="activarSonido">🔊 Activar sonido</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
